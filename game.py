@@ -128,7 +128,7 @@ class Game():
         FPS = 30
         clock = pygame.time.Clock()
 
-        base_folder = "/home/ys/Desktop/GoBang"
+        base_folder = "./"
         img_folder = os.path.join(base_folder, 'images')
         background_img = pygame.image.load(os.path.join(img_folder, 'back.png')).convert()
 
